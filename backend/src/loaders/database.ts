@@ -1,4 +1,4 @@
-import Container from 'typedi';
+import { Container } from 'typedi';
 import { createConnection, ConnectionOptions, useContainer } from 'typeorm';
 import { env } from '../env';
 

@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import express from 'express';
 import { createDatabaseConnection } from './loaders/database';
 import morgan from 'morgan';
